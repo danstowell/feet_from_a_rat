@@ -1,0 +1,5 @@
+{
+	"queryfragment": "      <has-kv k='amenity' regv='restaurant|fast_food|cafe'/><has-kv k='name' regv='^McDonald.*'/>",
+	"readable": "McDonald's"
+}
+

@@ -1,0 +1,33 @@
+<html manifest="cache.manifest">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>{{sentence}}</title>
+	<link rel="stylesheet" type="text/css" href="static/style_ffar.css"/>
+</head>
+<body>
+<p class="statement">{{sentence}}</p>
+
+<ul>
+	<li>[<a href="javascript:void(0);" onclick="document.getElementById('sourcebox').style.display = 'block'; document.getElementById('plotpic').src='images/{{lbl}}.png'; return false;">Proof</a>]</li>
+	<li>[<a href="https://twitter.com/intent/tweet?text={{sentence}}&url=http://mcld.co.uk/feet-from-a-rat/{{lbl}}.html">Tweet</a>]</li>
+	<li>[<a href="./index.html">Next</a>]</li>
+</ul>
+
+<div style="display: none;" id="sourcebox">
+<h3><a name="source" id="source">Source</a></h3>
+
+<p>This fact is calculated from data recorded in <a href="http://www.openstreetmap.org/">OpenStreetMap</a>.
+
+The point that achieves the furthest distance from {{article}} {{readable}} is <a href="http://www.openstreetmap.org/?mlat={{lat}}&mlon={{lon}}#map=8/{{lat}}/{{lon}}">here</a>, with the nearest to it being {{proximest_links}}.</p>
+
+<p>If you know of {{article}} {{readable}} that disproves the claim, you can edit OpenStreetMap (<a href="http://www.openstreetmap.org/welcome">here's how</a>) to make sure that item is listed on the map. (NB this website is refreshed occasionally from OpenStreetMap, but not instantly.)</p>
+
+<!-- <p>You can also <a href="javascript:void(0);" onclick="document.getElementById('plotpic').src='images/{{lbl}}.png'; return false;">click to see a plot of the calculation</a>.</p> -->
+
+	<div style="text-align: center;"><a href="images/{{lbl}}.png"><img src="static/pixel.png" id="plotpic" alt="Plot of furthest point" /></a></div>
+
+</div>
+
+
+</body>
+</html>

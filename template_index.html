@@ -1,0 +1,25 @@
+<html manifest="cache.manifest">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>In mainland Britain, you are never more than X miles from a rat</title>
+	<link rel="stylesheet" type="text/css" href="static/style_ffar.css"/>
+<script type="text/javascript">
+{{pathlist}}
+
+var chosenpath  = pathlist[Math.floor(Math.random() * pathlist.length)];
+
+window.location.href = chosenpath;
+
+</script>
+<style type="text/css">
+#sentencelinks {color: white}
+</style>
+</head>
+<body>
+
+<div id="sentencelinks">
+{{sentencelinks}}
+</div>
+
+</body>
+</html>

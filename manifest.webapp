@@ -1,0 +1,16 @@
+{
+  "name": "Feet From A Rat",
+  "description": "In mainland Britain, you are never more than _ miles from a _",
+  "launch_path": "/feet-from-a-rat/index.html",
+  "icons": {
+    "128": "/feet-from-a-rat/static/icon-128.png"
+  },
+  "developer": {
+    "name": "Dan Stowell",
+    "url": "http://mcld.co.uk/"
+  },
+  "default_locale": "en",
+  "appcache_path": "/feet-from-a-rat/cache.manifest",
+  "chrome": { "navigation": true },
+  "fullscreen": "true"
+}

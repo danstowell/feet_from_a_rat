@@ -1,0 +1,30 @@
+body {
+	margin: 10%%;
+	color: #333333;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+.statement {
+	margin: 2em;
+	font-size: 1.5em;
+}
+
+ul { margin: 2em; text-align: right;}
+ul li { display: inline; margin: 1em; }
+
+h3 {
+	margin: 3px;
+	padding: 3px;
+}
+#sourcebox {
+	font-size: 1em;
+	border: 1px solid black;
+	margin: 2em;
+	padding: 1em;
+}
+
+#plotpic {
+	text-align: center;
+	border: 0px;
+}
+
